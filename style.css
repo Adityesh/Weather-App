@@ -1,17 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
-
-
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(#111111,#313131);
 }
 
 .content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content .heading{
+    padding: 40px 0;
+}
+
+.content .heading h1{
+    font-size: 50px;
+}
+
+.content .heading i{
+    padding-left: 20px;
+}
+
+.location{
     width: 100%;
-    height: 100vh;
-    font-family: 'Bitter', serif;
-    background: radial-gradient(#212121,#424242);
-    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.temperature{
+    text-align: center;
+}
+
+.temperature span{
+    font-size: 20px;
+}
+
+.climate{
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
 }
