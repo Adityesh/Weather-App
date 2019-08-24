@@ -4,6 +4,9 @@ body{
     box-sizing: border-box;
     font-family: sans-serif;
     background: url("bg.jpg");
+    max-width: 50%;
+    width: 100%;
+    height: auto;
 
     
 }
@@ -38,7 +41,7 @@ body{
 .right-temp{
     cursor: pointer;
     padding-left: 0.25rem;
-    color: aqua;
+    color: rgb(0, 255, 21);
 }
 
 .climate{

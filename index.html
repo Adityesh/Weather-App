@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WEATHER-APP</title>
     <script src="https://kit.fontawesome.com/90f37ea620.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
@@ -16,16 +15,17 @@
         <div class="heading fix">
             <h1>WEATHER APP<i class="fas fa-temperature-high"></i></h1>
         </div>
-
-        <div class="location fix">
-            <span id="city">Delhi<span>,</span></span><span id="country">India</span>
-        </div>
-        <div class="temperature fix">
-            <span class="left-temp">32</span><span class="right-temp">F</span>
-        </div>
-        <div class="climate fix">
-            <span>HAZE</span>
-        </div>
+            <div id="weather-app" style="opacity: 0;">
+                <div class="location fix">
+                    <span id="city">Delhi</span><span id="country">India</span>
+                </div>
+                <div class="temperature fix">
+                    <span id="left-temp">32</span><span class="right-temp" id="change">C</span>
+                </div>
+                <div class="climate fix">
+                    <span id="climateCity">HAZE</span>
+                </div>
+            </div>
         <div class="madeby fix">Made by <a href="https://github.com/Adityesh">Adityesh Mishra</a></div>
 
         
